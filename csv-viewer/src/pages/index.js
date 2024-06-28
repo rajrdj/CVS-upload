@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import FileUpload from '../components/FileUpload';
 import FileList from '../components/FileList';
 import CSVViewer from '../components/CSVViewer';
-import Chart from '../components/Chart';
+import ChordDiagram from '../components/Chart';
 
 export default function Home() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -64,7 +64,7 @@ export default function Home() {
                   <option key={header} value={header}>{header}</option>
                 ))}
               </select>
-              {selectedColumn && <Chart data={csvData} column={selectedColumn} />}
+              {selectedColumn && <ChordDiagram data={csvData} column={selectedColumn} />}
             </div>
           </div>
         )}

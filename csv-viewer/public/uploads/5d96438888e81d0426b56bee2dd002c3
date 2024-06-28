@@ -1,0 +1,13 @@
+Category,City,Country,Customer ID,Customer Name,Market,Order Date,Order ID,Order Priority
+Technology,Dakar,Senegal,RH-9495,Rick Hansen,Africa,11/5/2013,SG-2013-4320,Critical
+Technology,Sydney,Australia,JM-15655,Jim Mitchum,APAC,6/28/2013,IN-2013-42360,Critical
+Furniture,Porirua,New Zealand,TS-21340,Toby Swindell,APAC,11/7/2011,IN-2011-81826,Critical
+Furniture,Hamilton,New Zealand,MB-18085,Mick Brown,APAC,4/14/2012,IN-2012-86369,High
+Office Supplies,Sacramento,United States,JW-15220,Jane Waco,US,10/14/2014,CA-2014-135909,Low
+Furniture,Concord,United States,JH-15985,Joseph Holt,US,1/28/2012,CA-2012-116638,Critical
+Office Supplies,Alexandria,United States,GM-14695,Greg Maxwell,US,4/5/2011,CA-2011-102988,High
+Furniture,Kabul,Afghanistan,AJ-10780,Anthony Jacobs,APAC,4/19/2012,ID-2012-28402,High
+Technology,Jizan,Saudi Arabia,MM-7260,Magdelene Morse,EMEA,12/27/2011,SA-2011-1830,Critical
+Furniture,Toledo,Brazil,VF-21715,Vicky Freymann,LATAM,11/13/2012,MX-2012-130015,Critical
+Office Supplies,Mudanjiang,China,PF-19120,Peter Fuller,APAC,6/6/2013,IN-2013-73951,Critical
+Office Supplies,Paris,France,BP-11185,Ben Peterman,EU,7/31/2014,ES-2014-5099955,Critical

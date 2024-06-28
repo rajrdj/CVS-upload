@@ -20,11 +20,13 @@ export default async function handler(req, res) {
     upload.single('file')(req, res, async (err) => {
       if (err) {
         console.error('File upload error:', err);
-        return res.status(500).json({ error: 'File upload failed', details: err.message });
+        res.status(500).json({ error: 'File upload failed', details: err.message });
+        return res.end();
       }
 
       if (!req.file) {
-        return res.status(400).json({ error: 'No file uploaded' });
+        res.status(400).json({ error: 'No file uploaded' });
+        return res.end();
       }
 
       const { filename, originalname } = req.file;
@@ -36,6 +38,8 @@ export default async function handler(req, res) {
       } catch (dbError) {
         console.error('Database error:', dbError);
         res.status(500).json({ error: 'Error saving file information to database', details: dbError.message });
+      } finally {
+        res.end();
       }
     });
   } else if (req.method === 'GET') {
@@ -45,8 +49,11 @@ export default async function handler(req, res) {
     } catch (error) {
       console.error('Database error:', error);
       res.status(500).json({ error: 'Error fetching files from database', details: error.message });
+    } finally {
+      res.end();
     }
   } else {
     res.status(405).json({ error: 'Method not allowed' });
+    res.end();
   }
 }

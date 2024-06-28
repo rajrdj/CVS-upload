@@ -1,0 +1,92 @@
+CustomerID,CustomerName,ContactName,Address,City,PostalCode,Country,Salary
+1,SHREYA PANDEY,Maria Anders,Obere Str. 57,Berlin,12209,Germany,2310
+2,Aashi Pandey,Ana Trujillo,Avda. de la Constitucion 2222,Mexico D.F.,5021,Mexico,3709
+3,Vibha Sharma,Antonio Moreno,Mataderos 2312,Mexico D.F.,5023,Mexico,5175
+4,Prabhat shivhare,Thomas Hardy,120 Hanover Sq.,London,WA1 1DP,UK,2893
+5,Devendra Kumar Mishra,Christina Berglund,Berguvsvagen 8,Luleå,S-958 22,Sweden,2833
+6,Praveen pal ,Hanna Moos,Forsterstr. 57,Mannheim,68306,Germany,2863
+7,Shubham Verma,Frederique Citeaux,"24, place Kleber",Strasbourg,67000,France,1822
+8,Priya lodhi,Martin Sommer,"C/ Araquil, 67",Madrid,28023,Spain,5245
+9,Rashi Saini ,Laurence Lebihans,"12, rue des Bouchers",Marseille,13008,France,5084
+10,Sonam  shivhare ,Elizabeth Lincoln,23 Tsawassen Blvd.,Tsawassen,T2F 8M4,Canada,4298
+11,Shivam Mishra,Victoria Ashworth,Fauntleroy Circus,London,EC2 5NT,UK,4164
+12,Monali Vishwakarma,Patricio Simpson,Cerrito 333,Buenos Aires,1010,Argentina,4626
+13,Sonam Thakur,Francisco Chang,Sierras de Granada 9993,Mexico D.F.,5022,Mexico,2617
+14,Mohit Kumar,Yang Wang,Hauptstr. 29,Bern,3012,Switzerland,2222
+15,Reema Chouhan,Pedro Afonso,"Av. dos Lusiadas, 23",São Paulo,05432-043,Brazil,3702
+16,Prachi Singh Thakur,Elizabeth Brown,Berkeley Gardens 12 Brewery,London,WX1 6LT,UK,1870
+17,Sumit Ahuja,Sven Ottlieb,Walserweg 21,Aachen,52066,Germany,2250
+18,Gajendra suryawanshi,Janine Labrune,"67, rue des Cinquante Otages",Nantes,44000,France,7959
+19,Akshat Modi,Ann Devon,35 King George,London,WX3 6FW,UK,2566
+20,Kajal patel,Roland Mendel,Kirchgasse 6,Graz,8010,Austria,3410
+21,Palak bodhani,Aria Cruz,"Rua Oros, 92",São Paulo,05442-030,Brazil,1978
+22,Aayushi patle,Diego Roel,"C/ Moralzarzal, 86",Madrid,28034,Spain,2736
+23,Nikhil kumar soni,Martine Rance,"184, chaussee de Tournai",Lille,59000,France,2754
+24,Navnidhi Jain,Maria Larsson,Åkergatan 24,Bracke,S-844 67,Sweden,5274
+25,Ashutosh Kushwaha,Peter Franken,Berliner Platz 43,München,80805,Germany,1714
+26,Rajeshwari Soni,Carine Schmitt,"54, rue Royale",Nantes,44000,France,2106
+27,Shashank Kumar Sahu ,Paolo Accorti,Via Monte Bianco 34,Torino,10100,Italy,1715
+28,Sachin vishwakarma ,Lino Rodriguez,Jardim das rosas n. 32,Lisboa,1675,Portugal,3070
+29,Jyotirmay Tripathi,Eduardo Saavedra,"Rambla de Catalna, 23",Barcelona,8022,Spain,4159
+30,ekta chouksey,Jose Pedro Freyre,"C/ Romero, 33",Sevilla,41101,Spain,1879
+31,Sana Anjum,Andre Fonseca,"Av. Brasil, 442",Campinas,04876-786,Brazil,1697
+32,Anish Kumar Pandey,Howard Snyder,2732 Baker Blvd.,Eugene,97403,USA,2403
+33,Aayush patel,Manuel Pereira,5Ave. Los Palos Grandes,Caracas,1081,Venezuela,2453
+34,Swati solanki,Mario Pontes,"Rua do Paco, 67",Rio de Janeiro,05454-876,Brazil,2527
+35,Jinnat Begam,Carlos Hernandez,Carrera 22 con Ave. Carlos Soublette #8-35,San Cristobal,5022,Venezuela,3611
+36,Vishal Singh Jatav,Yoshi Latimer,City Center Plaza 516 Main St.,Elgin,97827,USA,3817
+37,Pratibha Patel,Patricia McKenna,8 Johnstown Road,Cork,,Ireland,2800
+38,Mahak jain,Helen Bennett,Garden House Crowther Way,Cowes,PO31 7PJ,UK,8000
+39,Vaishali Vishwakarma,Philip Cramer,Maubelstr. 90,Brandenburg,14776,Germany,4141
+40,Vaishnavi Raikwar,Daniel Tonini,"67, avenue de l'Europe",Versailles,78000,France,2875
+41,Shrasti Patel ,Annette Roulet,1 rue Alsace-Lorraine,Toulouse,31000,France,3201
+42,Labhanshi Jain,Yoshi Tannamuri,1900 Oak St.,Vancouver,V3F 2K1,Canada,4519
+43,Shaifali Rajput,John Steel,12 Orchestra Terrace,Walla Walla,99362,USA,5668
+44,Harshit pethiya,Renate Messner,Magazinweg 7,Frankfurt a.M.,60528,Germany,5785
+45,Shilpi Priya,Jaime Yorres,87 Polk St. Suite 5,San Francisco,94117,USA,3019
+46,Atul Deshmukh ,Carlos Gonzalez,Carrera 52 con Ave. Bolivar #65-98 Llano Largo,Barquisimeto,3508,Venezuela,9450
+47,Harshit Dhawan,Felipe Izquierdo,Ave. 5 de Mayo Porlamar,I. de Margarita,4980,Venezuela,2093
+48,Ritik Soni,Fran Wilson,89 Chiaroscuro Rd.,Portland,97219,USA,2761
+49,Aditi sahu,Giovanni Rovelli,Via Ludovico il Moro 22,Bergamo,24100,Italy,2174
+50,Ruchika Suryawanshi,Catherine Dewey,Rue Joseph-Bens 532,Bruxelles,B-1180,Belgium,3473
+51,Astha Dubey,Jean Fresniere,43 rue St. Laurent,Montreal,H1J 1C3,Canada,3050
+52,Monika Thakur,Alexander Feuer,Heerstr. 22,Leipzig,4179,Germany,2109
+53,Palak Sahu,Simon Crowther,South House 300 Queensbridge,London,SW7 1RZ,UK,2400
+54,shivansu soni,Yvonne Moncada,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,1010,Argentina,2198
+55,Arpit kumar Kanwar,Rene Phillips,2743 Bering St.,Anchorage,99508,USA,2582
+56,Shekhar Jaiswal,Henriette Pfalzheim,Mehrheimerstr. 369,Koln,50739,Germany,1527
+57,Sunayana Patel,Marie Bertrand,"265, boulevard Charonne",Paris,75012,France,3150
+58,Muskan Tabassum ,Guillermo Fernández,Calle Dr. Jorge Cash 321,Mexico D.F.,5033,Mexico,1745
+59,Vinita srivastava ,Georg Pipps,Geislweg 14,Salzburg,5020,Austria,4192
+60,saumya mishra,Isabel de Castro,Estrada da saude n. 58,Lisboa,1756,Portugal,4368
+61,Naziya Hasan,Bernardo Batista,"Rua da Panificadora, 12",Rio de Janeiro,02389-673,Brazil,3063
+62,Sarbari Bee,Lucia Carvalho,"Alameda dos Canàrios, 891",Sao Paulo,05487-020,Brazil,4644
+63,Garima Soni ,Horst Kloss,Taucherstraße 10,Cunewalde,1307,Germany,4473
+64,Ankush Gupta,Sergio Gutierrez,Av. del Libertador 900,Buenos Aires,1010,Argentina,1502
+65,Sagar jha,Paula Wilson,2817 Milton Dr.,Albuquerque,87110,USA,5049
+66,Naman Singh Thakur,Maurizio Moroni,Strada Provinciale 124,Reggio Emilia,42100,Italy,2105
+67,Akansha Kori,Janete Limeira,"Av. Copacabana, 267",Rio de Janeiro,02389-890,Brazil,2188
+68,Jitendra Singh Lodhi,Michael Holz,Grenzacherweg 237,Geneve,1203,Switzerland,1920
+69,KARTIKEYA MEHTA,Alejandra Camino,"Gran Via, 1",Madrid,28001,Spain,1704
+70,Ashish Khare,Jonas Bergulfsen,Erling Skakkes gate 78,Stavern,4110,Norway,1859
+71,Muskan Tripathi,Jose Pavarotti,187 Suffolk Ln.,Boise,83720,USA,3298
+72,Shejal soni,Hari Kumar,90 Wadhurst Rd.,London,OX15 4NB,UK,2443
+73,ANKIT KUMAR SONI,Jytte Petersen,Vinaltet 34,Kobenhavn,1734,Denmark,3809
+74,Ankit Vishwakarma,Dominique Perrier,"25, rue Lauriston",Paris,75016,France,3427
+75,Samiksha Kesharwani ,Art Braunschweiger,P.O. Box 555,Lander,82520,USA,3442
+76,Priyanka Kanojia,Pascale Cartrain,"Boulevard Tirou, 255",Charleroi,B-6000,Belgium,2863
+77,Shreya Vishnoi,Liz Nixon,89 Jefferson Way Suite 2,Portland,97201,USA,6355
+78,Yogesh suryawanshi ,Liu Wong,55 Grizzly Peak Rd.,Butte,59801,USA,1487
+79,Priya Yadav,Karin Josephs,Luisenstr. 48,Munster,44087,Germany,3200
+80,Krishna Vishwakarma ,Miguel Angel Paolino,Avda. Azteca 123,Mexico D.F.,5033,Mexico,2301
+81,ARPIT NAMDEO,Anabela Domingues,"Av. Inês de Castro, 414",São Paulo,05634-030,Brazil,5729
+82,Surbhi Tamrakar,Helvetius Nagy,722 DaVinci Blvd.,Kirkland,98034,USA,5301
+83,Shashank Bharadwaj ,Palle Ibsen,Smagsloget 45,Arhus,8200,Denmark,5444
+84,Apurv Mishra,Mary Saveley,"2, rue du Commerce",Lyon,69004,France,4416
+85,Sarika Nag,Paul Henriot,59 rue de l'Abbaye,Reims,51100,France,3220
+86,YASH NAMDEO,Rita Müller,Adenauerallee 900,Stuttgart,70563,Germany,2488
+87,Shantanu Bisen,Pirkko Koskitalo,Torikatu 38,Oulu,90110,Finland,2266
+88,Krishn Pratap kurmi,Paula Parente,"Rua do Mercado, 12",Resende,08737-363,Brazil,3068
+89,Manas sainee,Karl Jablonski,305 - 14th Ave. S. Suite 3B,Seattle,98128,USA,3728
+90,Uday jatav,Matti Karttunen,Keskuskatu 45,Helsinki,21240,Finland,1581
+91,Apoorva Nema,Zbyszek,ul. Filtrowa 68,Walla,01-012,Poland,1917

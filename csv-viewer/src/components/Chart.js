@@ -1,3 +1,35 @@
+/**
+ * A React component that renders a chord diagram using D3.js.
+ *
+ * The chord diagram is a circular layout that displays the relationships between
+ * different groups or categories. In this implementation, the diagram is
+ * generated based on the provided data and column.
+ *
+ * @param {object} data - The data to be used for generating the chord diagram.
+ * @param {string} column - The column in the data that determines the groups or
+ *   categories for the chord diagram.
+ *
+ * @example
+ * ```
+ * import React from 'react';
+ * import ChordDiagram from './ChordDiagram';
+ *
+ * const data = [
+ *   { category: 'A', value: 10 },
+ *   { category: 'A', value: 20 },
+ *   { category: 'B', value: 30 },
+ *   { category: 'B', value: 40 },
+ *   { category: 'C', value: 50 },
+ *   { category: 'C', value: 60 },
+ * ];
+ *
+ * const App = () => {
+ *   return <ChordDiagram data={data} column="category" />;
+ * };
+ * ```
+ *
+ * @returns {React.ReactElement} A React element that renders the chord diagram.
+ */
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 
@@ -10,8 +42,8 @@ const ChordDiagram = ({ data, column }) => {
     // Clear any existing SVG content
     d3.select(svgRef.current).selectAll("*").remove();
 
-    const width = 400;
-    const height = 400;
+    const width = 600;
+    const height = 600;
     const outerRadius = Math.min(width, height) * 0.5 - 40;
     const innerRadius = outerRadius - 30;
 

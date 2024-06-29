@@ -49,39 +49,43 @@ const CSVViewer = ({ data, headers }) => {
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearch}
-        className="mb-4 p-2 border rounded"
+        className="mb-4 p-2 border rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 w-full"
       />
-      <table className="min-w-full divide-y divide-gray-200">
-        <thead className="bg-gray-50">
-          <tr>
-            {headers.map(header => (
-              <th
-                key={header}
-                onClick={() => handleSort(header)}
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer"
-              >
-                {header}
-                {sortColumn === header && (sortDirection === 'asc' ? ' ▲' : ' ▼')}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody className="bg-white divide-y divide-gray-200">
-          {currentRecords.map((row, index) => (
-            <tr key={index}>
+      <div className="overflow-x-auto">
+        <table className="min-w-full divide-y divide-gray-200 bg-white shadow-md rounded-lg">
+          <thead className="bg-gray-100">
+            <tr>
               {headers.map(header => (
-                <td key={header} className="px-6 py-4 whitespace-nowrap">{row[header]}</td>
+                <th
+                  key={header}
+                  onClick={() => handleSort(header)}
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition duration-150 ease-in-out"
+                >
+                  {header}
+                  {sortColumn === header && (sortDirection === 'asc' ? ' ▲' : ' ▼')}
+                </th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <div className="mt-4">
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            {currentRecords.map((row, index) => (
+              <tr key={index} className="hover:bg-gray-50 transition duration-150 ease-in-out">
+                {headers.map(header => (
+                  <td key={header} className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{row[header]}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mt-4 flex justify-center">
         {Array.from({ length: Math.ceil(displayData.length / recordsPerPage) }, (_, i) => (
           <button
             key={i}
             onClick={() => paginate(i + 1)}
-            className="mx-1 px-3 py-1 border rounded hover:bg-gray-200"
+            className={`mx-1 px-3 py-1 border rounded-md transition duration-150 ease-in-out ${
+              currentPage === i + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 hover:bg-blue-100'
+            }`}
           >
             {i + 1}
           </button>
@@ -90,6 +94,5 @@ const CSVViewer = ({ data, headers }) => {
     </div>
   );
 };
-
 
 export default CSVViewer;

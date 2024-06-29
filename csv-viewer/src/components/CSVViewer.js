@@ -49,35 +49,47 @@ const CSVViewer = ({ data, headers }) => {
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearch}
+        className="mb-4 p-2 border rounded"
       />
-      <table>
-        <thead>
+      <table className="min-w-full divide-y divide-gray-200">
+        <thead className="bg-gray-50">
           <tr>
             {headers.map(header => (
-              <th key={header} onClick={() => handleSort(header)}>
+              <th
+                key={header}
+                onClick={() => handleSort(header)}
+                className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer"
+              >
                 {header}
                 {sortColumn === header && (sortDirection === 'asc' ? ' ▲' : ' ▼')}
               </th>
             ))}
           </tr>
         </thead>
-        <tbody>
+        <tbody className="bg-white divide-y divide-gray-200">
           {currentRecords.map((row, index) => (
             <tr key={index}>
               {headers.map(header => (
-                <td key={header}>{row[header]}</td>
+                <td key={header} className="px-6 py-4 whitespace-nowrap">{row[header]}</td>
               ))}
             </tr>
           ))}
         </tbody>
       </table>
-      <div>
+      <div className="mt-4">
         {Array.from({ length: Math.ceil(displayData.length / recordsPerPage) }, (_, i) => (
-          <button key={i} onClick={() => paginate(i + 1)}>{i + 1}</button>
+          <button
+            key={i}
+            onClick={() => paginate(i + 1)}
+            className="mx-1 px-3 py-1 border rounded hover:bg-gray-200"
+          >
+            {i + 1}
+          </button>
         ))}
       </div>
     </div>
   );
 };
+
 
 export default CSVViewer;

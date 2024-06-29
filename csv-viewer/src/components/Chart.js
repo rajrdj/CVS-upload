@@ -10,8 +10,8 @@ const ChordDiagram = ({ data, column }) => {
     // Clear any existing SVG content
     d3.select(svgRef.current).selectAll("*").remove();
 
-    const width = 600;
-    const height = 600;
+    const width = 400;
+    const height = 400;
     const outerRadius = Math.min(width, height) * 0.5 - 40;
     const innerRadius = outerRadius - 30;
 
